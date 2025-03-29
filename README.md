@@ -60,7 +60,7 @@ This Python script automates the process of creating and configuring an Azure Ac
 1. Update the `variables-from-SNOW.yaml` file with the required configuration details.
 2. Run the script using Python:
    ```bash
-   python 6-Enabled-MFA.py
+   App-Reg.py
    ```
 3. Monitor the console output for progress and error messages.
 
