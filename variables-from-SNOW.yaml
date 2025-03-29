@@ -1,11 +1,11 @@
 # variables-from-SNOW.yaml
-Creator: grantstafford511@gmail.com
+Creator: Example@email.com
 Date: '2025-03-15 12:34:56'
-Ticket: SCTASK00000000
+Ticket: ticket123456789
 CI: Test-CI
-Business Contact: grantstafford511@gmail.com
-Technical Contact: grantstafford511@gmail.com
-Vendor Contact: grantstafford511@gmail.com
+Business Contact: Example@email.com
+Technical Contact: Example@email.com
+Vendor Contact: Example@email.com
 Link to EDP: https:\\test-url.com\\
 
 APP_NAME: "YourAppName2"
