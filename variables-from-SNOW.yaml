@@ -1,0 +1,63 @@
+# variables-from-SNOW.yaml
+Creator: grantstafford511@gmail.com
+Date: '2025-03-15 12:34:56'
+Ticket: SCTASK00000000
+CI: Test-CI
+Business Contact: grantstafford511@gmail.com
+Technical Contact: grantstafford511@gmail.com
+Vendor Contact: grantstafford511@gmail.com
+Link to EDP: https:\\test-url.com\\
+
+APP_NAME: "YourAppName2"
+GROUP_NAMES:
+  - "TestGroup1"
+  - "TestGroup2"
+REDIRECT_URI_TYPE: "Web" # Values are Web, Single-page Application or Other
+REDIRECT_URI: "https://your-redirect-uri.com"
+# Client_Secret_Creation: "Yes" # Values are Yes or No
+# Client_Certificate_Creation: "No" # Values are Yes or No
+
+# Approved Microsoft Graph Use Cases and API's.
+Approved_APIs:
+  Delegate_Permissions:
+    # Sign you in and read your profile
+    - User.ReadBasic.All
+    - User.Read.All
+    - User.Read
+    # View user's basic profile
+    - User.ReadBasic.All
+    - User.Read.All
+    # Access the directory as you
+    - profile
+    # Allows users to sign in to the app and allows the app to see basic user profile information
+    - openid
+    # Access your data anytime
+    - offline_access
+    # Read Directory Information
+    - Directory.Read.All
+    - Group.Read.All
+    - Group.ReadBasic.All
+    # PowerBI
+    - App.Read
+    - Dashboard.Read.All
+    # Operate as the interactive user
+    - user_impersonation
+  Application_Permissions:
+    # OpenID Connect Single Sign On
+    - User.ReadBasic.All
+    - User.Read
+    - Organization.Read.All
+    # System for Cross-domain Identity Management
+    - Directory.Read.All
+    - User.ReadBasic.All
+    - User.Read
+    - GroupMember.Read.All
+    # SharePoint Site access must use Sites.Selected API permission
+    - Sites.Selected
+
+# Requested API Permissions for Delegated and Application Permissions
+RequestedDelegatedPermissions:
+  - "User.ReadBasic.All"
+
+RequestedApplicationPermissions:
+  - "User.Read"
